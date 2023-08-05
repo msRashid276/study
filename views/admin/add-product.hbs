@@ -1,0 +1,45 @@
+<section>
+    <h3 class="text-primary text-center mt-3 mb-3">Add product</h3>
+<div class="container">
+    <form action="/admin/add-product" method="post" enctype="multipart/form-data">
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+
+  <div class="row mb-2">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control" name="Product" value="Iphone"/>
+        <label class="form-label" for="form6Example1">Product</label>
+      </div>
+    </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-2">
+    <input type="text" id="form6Example3" class="form-control" name="Mobile" value="mobile" />
+    <label class="form-label" for="form6Example3">Category</label>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-2">
+    <input type="text" id="form6Example4" class="form-control" name="Description" value="good" />
+    <label class="form-label" for="form6Example4">Description</label>
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-2">
+    <input type="text" id="form6Example5" class="form-control" name="Price" value="100000" />
+    <label class="form-label" for="form6Example5">Price</label>
+  </div>
+
+  <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="file" id="form6Example6" name="Image" class="form-control" />
+    <label class="form-label" for="form6Example6">Image</label>
+  </div>
+
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+
+</form>
+</div>
+</section>
